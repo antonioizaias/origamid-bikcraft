@@ -28,6 +28,7 @@ p {
     letter-spacing: .1em;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .subtitulo:after {
@@ -48,6 +49,11 @@ p {
     margin-bottom: 25px;
 }
 
+/* Para todas as imagens se comportarem como um elemento de bloco, tirando uma margem inferior, facilitando sua manipulação */
+img {
+    display: block;
+}
+
 /* Header */
 
 .header {
@@ -57,7 +63,7 @@ p {
     top: 0;
     background-color: #FEC63E;
     padding: 15px 0;
-    z-index: 10;
+    z-index: 2;
     height: 92px;
 }
 
@@ -99,6 +105,7 @@ p {
     height: 380px;
     text-align: center;
     padding-top: 80px;
+    margin-bottom: 60px;
 }
 
 .introducao h1 {
@@ -144,14 +151,13 @@ p {
 /* Produtos */
 
 .produtos {
-    padding: 60px 0;
+    margin-bottom: 60px;
 }
 
 /* Cores específicas do subtítulo para a sessão de produtos */
 
 .produtos .subtitulo {
     color: #000;
-    margin-bottom: 40px;
 }
 
 .produtos .subtitulo:after {
@@ -190,6 +196,10 @@ p {
     padding: 10px 20px 20px 20px;
 }
 
+.produtos img {
+    margin: 0 auto;
+}
+
 .produtos .call-to-action {
     color: #000;
 }
@@ -206,6 +216,7 @@ p {
     width: 100%;
     background-color: #000;
     padding: 40px 0;
+    margin-bottom: 60px;
 }
 
 /* Selecionar último item da lista */
@@ -215,7 +226,6 @@ p {
 
 .portfolio .subtitulo {
     color: #FEC63E;
-    margin-bottom: 40px;
 }
 
 .portfolio .subtitulo:after {
@@ -229,4 +239,67 @@ p {
 .portfolio .btn:hover {
     color: #FFF;
     border-color: #FFF;
+}
+
+/* Qualidade */
+
+.qualidade {
+    margin-bottom: 60px;
+}
+
+.qualidade:after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../images/lines.svg") no-repeat center;
+    position: absolute;
+    top: 151px;
+    right: 162px;
+    z-index: -2;
+}
+
+.qualidade .subtitulo {
+    color: #000;
+}
+
+.qualidade .subtitulo:after {
+    background: #000;
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidade-list li {
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+
+.qualidade-list li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 10px;
+}
+
+.qualidade-list li h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 6px auto;
+}
+
+.qualidade .call-to-action {
+    color: #000;
+}
+
+.qualidade .btn:hover {
+    color: #000;
+    border-color: #000;
 }
