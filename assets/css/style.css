@@ -4,6 +4,27 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn {
+    border: 3px solid #FEC63E;
+    padding: 10px 30px;
+    color: #FEC63E;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.btn:hover {
+    background-color: #000;
+}
+
 /* Header */
 
 .header {
@@ -41,4 +62,51 @@ body {
 
 .logo:hover {
     background-color: #FFF
+}
+
+/* Introdução */
+
+.introducao {
+    width: 100%;
+    background: url("../images/background.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 96px;
+    height: 380px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.introducao h1 {
+    font-size: 48px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.quote-introducao {
+    margin: 0 auto;
+    color: #FFF;
+    margin-bottom: 50px;
+}
+
+.quote-introducao p {
+    font-style: italic;
+}
+
+/* Adicionar um elemento antes e depois */
+.quote-introducao p:before, .quote-introducao p:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFF;
+    margin: 15px auto;
+}
+
+.quote-introducao cite {
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    initial-letter: 1em;
 }
