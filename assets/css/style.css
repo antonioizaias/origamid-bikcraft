@@ -261,7 +261,7 @@ img {
     display: block;
     background: url("../images/lines.svg") no-repeat center;
     position: absolute;
-    top: 151px;
+    top: 210px;
     right: 162px;
     z-index: -2;
 }
