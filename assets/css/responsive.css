@@ -23,11 +23,14 @@
 
 /* Dispositivos móveis */
 @media only screen and (max-width: 787px) {
-    /* Página principal */
+    /* Página principal e gerais */
     
-    /* Gerais */
     .call-to-action {
         padding-top: 15px;
+    }
+
+    .introducao-paginas {
+        margin-top: 0px;
     }
 
     /* Header */
@@ -59,6 +62,11 @@
     }
 
     .header-nav ul li a:hover {
+        border-color: #FFF;
+    }
+    
+    .header-nav ul li a.menu-ativo {
+        color: #FFF;
         border-color: #FFF;
     }
 
@@ -116,4 +124,19 @@
     .copyright p {
         padding-top: 20px;
     }
+
+    /* Página – Sobre */
+
+    /* Sobre */
+    .sobre p{
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 0px;
+    }
+
+    .sobre ul li{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
 }
