@@ -10,6 +10,33 @@ p {
     line-height: 20px;
 }
 
+.quote {
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.quote p {
+    font-style: italic;
+}
+
+/* Adicionar um elemento antes e depois */
+.quote p:before, .quote p:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFF;
+    margin: 15px auto;
+}
+
+.quote cite {
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    initial-letter: 1em;
+}
+
 .btn {
     border: 3px solid #FEC63E;
     padding: 10px 30px;
@@ -65,6 +92,7 @@ img {
     padding: 15px 0;
     z-index: 2;
     height: 92px;
+    opacity: 0.96;
 }
 
 .header-nav {
@@ -108,39 +136,15 @@ img {
     margin-bottom: 60px;
 }
 
+.introducao .quote {
+    margin-bottom: 50px;
+}
+
 .introducao h1 {
     font-size: 48px;
     color: #FFF;
     font-weight: bold;
     text-transform: uppercase;
-}
-
-.quote-introducao {
-    margin: 0 auto;
-    color: #FFF;
-    margin-bottom: 50px;
-}
-
-.quote-introducao p {
-    font-style: italic;
-}
-
-/* Adicionar um elemento antes e depois */
-.quote-introducao p:before, .quote-introducao p:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: #FFF;
-    margin: 15px auto;
-}
-
-.quote-introducao cite {
-    font-style: normal;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 14px;
-    initial-letter: 1em;
 }
 
 .introducao .btn:hover {
@@ -302,4 +306,69 @@ img {
 .qualidade .btn:hover {
     color: #000;
     border-color: #000;
+}
+
+/* Quebra */
+
+.quebra {
+    width: 100%;
+    height: 220px;
+    background: url("../images/background-footer.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    background: #000;
+    color: #FFF;
+    padding: 20px 0;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEC63E;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FEC63E;
+    margin: 6px 0 12px 0;
+}
+
+.footer-history {
+    padding-right: 30px;
+}
+
+.footer-social-networks ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social-networks ul li a {
+    border: 3px solid #FEC63E;
+    display: block;
+    padding: 10px;
+}
+
+.footer-social-networks ul li a:hover {
+    border-color: #FFF;
+}
+
+/* Copyright */
+
+.copyright {
+    width: 100%;
+    background: #FEC63E;
+    padding: 20px 0;
 }
