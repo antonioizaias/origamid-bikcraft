@@ -189,4 +189,10 @@
     .form {
         padding-right: 0px;
     }
+
+    /* Página de portfólio */
+
+    .portfolio-sessao-propria {
+        padding-bottom: 20px;
+    }
 }
