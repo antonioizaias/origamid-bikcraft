@@ -1,6 +1,7 @@
 /* Dispositivos médios */
 @media only screen and (min-width:788px) and (max-width: 979px) {
     /* Página principal */
+
     /* Produtos */
     .produtos-list li {
         height: 300px;
@@ -19,12 +20,33 @@
     .footer-social-networks ul li a {
         padding: 6px;
     }
+
+    /* Página de produtos */
+
+    /* Produtos */
+    .produto-item h2 {
+        top: -150px;
+    }
+
+    .produto-icone {
+        padding: 41px 0;
+    }
+
+    .produto-info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px;
+        height: 122px;
+    }
+
+    .produto-info ul li {
+        width: 181px;
+    }
 }
 
 /* Dispositivos móveis */
 @media only screen and (max-width: 787px) {
     /* Página principal e gerais */
-    
     .call-to-action {
         padding-top: 15px;
     }
@@ -71,7 +93,6 @@
     }
 
     /* Introdução */
-
     .introducao {
         margin-top: 0;
         padding-top: 50px;
@@ -84,7 +105,6 @@
     }
 
     /* Portfólio */
-
     .portfolio-list li:last-child img {
         display: none;
     }
@@ -139,4 +159,34 @@
         line-height: 25px;
     }
 
+    /* Página de produtos */
+
+    /* Produtos */
+    .produto-item h2 {
+        top: -110px;
+        margin-bottom: -68px;
+    }
+
+    .produto-icone {
+        padding: 41px 0;
+    }
+
+    .produto-info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 20px 30px;
+        height: auto;
+    }
+
+    .produto-info ul li {
+        width: 149px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* Formulário */
+
+    .form {
+        padding-right: 0px;
+    }
 }
