@@ -119,6 +119,10 @@ img {
     color: #FFF;
 }
 
+.header-nav ul li a.menu-ativo {
+    color: #FFF;
+}
+
 .logo:hover {
     background-color: #FFF
 }
@@ -275,6 +279,11 @@ img {
     margin: 0 auto;
 }
 
+/* Clear Fix */
+.qualidade-list {
+    overflow: auto;
+}
+
 .qualidade-list li {
     text-align: center;
     padding: 0 20px;
@@ -371,4 +380,51 @@ img {
     width: 100%;
     background: #FEC63E;
     padding: 20px 0;
+}
+
+/* Introdução das outras páginas */
+
+.introducao-paginas {
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.introducao-paginas  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-paginas  h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFF;
+    margin: 8px auto 16px auto;
+}
+
+/* Subtítulo das outras páginas */
+
+.subtitulo-paginas {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.subtitulo-paginas:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 10px 0;
+    background: #000;
 }

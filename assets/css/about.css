@@ -1,0 +1,28 @@
+/* Introdução */
+.introducao-sobre {
+    background: url("../images/background-about.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* Sobre */
+
+.sobre {
+    padding: 60px 0 60px 0;
+}
+
+.sobre p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+}
+
+.sobre ul li {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.foto-equipe {
+    padding-top: 10px;
+}
