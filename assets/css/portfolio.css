@@ -1,0 +1,30 @@
+/* Introdução */
+.introducao-portfolio {
+    background: url("../images/background-portfolio.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* Quote */
+
+.quote-cliente {
+    padding: 60px 0;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.quote-cliente p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.quote-cliente cite {
+    font-style: 18px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    font-style: normal;
+}
