@@ -77,8 +77,10 @@ p {
 }
 
 /* Para todas as imagens se comportarem como um elemento de bloco, tirando uma margem inferior, facilitando sua manipulação */
+/* Tamanho máximo de 100% pra se adaptar melhor na responsividade */
 img {
     display: block;
+    max-width: 100%;
 }
 
 /* Header */
@@ -91,7 +93,7 @@ img {
     background-color: #FEC63E;
     padding: 15px 0;
     z-index: 2;
-    height: 92px;
+    /* height: 92px; */
     opacity: 0.96;
 }
 
