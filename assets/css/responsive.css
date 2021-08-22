@@ -1,0 +1,119 @@
+/* Dispositivos médios */
+@media only screen and (min-width:788px) and (max-width: 979px) {
+    /* Página principal */
+    /* Produtos */
+    .produtos-list li {
+        height: 300px;
+    }
+
+    /* Qualidade */
+    .qualidade:after {
+        right: 66px;
+    }
+
+    .qualidade-list li {
+        padding: 0 10px;
+    }
+
+    /* Footer */
+    .footer-social-networks ul li a {
+        padding: 6px;
+    }
+}
+
+/* Dispositivos móveis */
+@media only screen and (max-width: 787px) {
+    /* Página principal */
+    
+    /* Gerais */
+    .call-to-action {
+        padding-top: 15px;
+    }
+
+    /* Header */
+    .header {
+        position: relative;
+        opacity: 1;
+        padding-bottom: 0;
+    }
+
+    .header img {
+        margin: 0 auto;
+    }
+
+    .header-nav {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .header-nav ul li {
+        margin: 5px;
+    }
+
+    .header-nav ul li a{
+        border: 4px solid #000;
+        width: 136px;
+        display: block;
+        float: left;
+        padding: 10px 0;
+    }
+
+    .header-nav ul li a:hover {
+        border-color: #FFF;
+    }
+
+    /* Introdução */
+
+    .introducao {
+        margin-top: 0;
+        padding-top: 50px;
+        background: url("../images/background-mobile.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    .introducao h1 {
+        font-size: 36px;
+    }
+
+    /* Portfólio */
+
+    .portfolio-list li:last-child img {
+        display: none;
+    }
+    
+    /* Qualidade */
+    .qualidade:after {
+        display: none;
+    }
+
+    /* Quebra */
+    .quebra {
+        padding-top: 30px;
+    }
+
+    /* Footer */
+    .footer {
+        text-align: center;
+    }
+
+    .footer h3:after {
+        margin: 6px auto 12px auto;
+    }
+
+    .footer-history {
+        padding-right: 0px;
+    }
+
+    .footer-social-networks ul li:nth-child(3) {
+        margin-right: 0px;
+    }
+
+    /* Copyright */
+    .copyright {
+        padding: 0;
+    }
+
+    .copyright p {
+        padding-top: 20px;
+    }
+}
