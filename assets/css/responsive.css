@@ -195,6 +195,11 @@
         padding-bottom: 20px;
     }
 
+    /* Navegação – Slide */
+    .js [data-slide-nav] {
+        margin-top: 0;
+    }
+
     /* Página de contato */
     .contato-form {
         padding-right: 0px;
