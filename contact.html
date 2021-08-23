@@ -47,20 +47,26 @@
 
         <!-- Contato -->
         <section data-anime="800" class="contato container fadeInDown">
-            <form id="contato-form" class="contato-form grid-8">
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome">
+            <form id="contato-form" method="POST" action="./sendgrid.php" class="contato-form grid-8 formphp">
+                <label for="nome">Nome*</label>
+                <input type="text" name="nome" id="nome" required>
 
-                <label for="email">E-mail</label>
-                <input type="text" name="email" id="email">
+                <label for="email">E-mail*</label>
+                <input type="email" name="email" id="email" required>
 
                 <label for="telefone">Telefone</label>
                 <input type="text" name="telefone" id="telefone">
 
-                <label for="especificacoes">Especificações</label>
-                <textarea name="especificacoes" id="especificacoes"></textarea>
+                <label class="nao-aparece" for="">Se você não é um robô, deixe em branco</label>
+                <input type="text" class="nao-aparece" name="leavebrank">
 
-                <button type="submit" class="btn">Enviar</button>
+                <label class="nao-aparece" for="">Se você não é um robô, não mude este campo</label>
+                <input type="text" class="nao-aparece" name="dontchange" value="https://">
+
+                <label for="mensagem">Mensagem*</label>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+
+                <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
             </form>
             <div class="contato-dados grid-8">
                 <h3>Dados</h3>
@@ -144,6 +150,7 @@
         </footer>
         <!-- JavaScript -->
         <script src="/src/simple-anime.js"></script>
+        <script src="/src/simple-form.js"></script>
         <script src="/src/script.js"></script>
     </body>
 </html>

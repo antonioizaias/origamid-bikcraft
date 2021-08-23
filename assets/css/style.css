@@ -19,6 +19,22 @@ p {
     font-style: italic;
 }
 
+/* Formulários */
+
+.nao-aparece {
+    visibility: hidden;
+    position: absolute;
+    height: 0px;
+}
+
+#form-sucesso {
+    color: #31AA39;
+}
+
+#form-erro {
+    color: #F64540;
+}
+
 /* Adicionar um elemento antes e depois */
 .quote p:before, .quote p:after {
     content: "";
