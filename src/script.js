@@ -20,8 +20,8 @@ if (window.SimpleAnime) {
 
 if (window.SimpleForm) {
     new SimpleForm({
-        form: ".formphp", // seletor do formulário
-        button: "#enviar", // seletor do botão
+        form: ".form",
+        button: "#enviar",
         erro: "<div id='form-erro'><h2>Erro</h2><p>Um erro ocorreu, por favor tente novamente mais tarde.</p></div>", // Mensagem de erro
         sucesso: "<div id='form-sucesso'><h2>Formulário enviado com sucesso</h2><p>Em breve eu entro em contato com você.</p></div>", // Mensagem de sucesso
     });
